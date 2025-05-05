@@ -1,0 +1,84 @@
+@font-face {
+    font-family:"cursed";
+    src: url("CursedTimer.ttf")
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#main-border{
+    border: 5px solid white;
+    border-radius: 10px;
+    
+}
+
+#main{
+    background-color: #1B244A;
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    padding-bottom: 10px;
+    border-radius: 10px 10px 0 0;
+    
+}
+
+.team{
+    color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+
+}
+
+.teams{
+    margin-bottom: 10px;
+
+}
+
+.score{
+    color: #F94F6D;
+    background-color: black;
+    font-family: cursed;
+    font-size: 50px;
+    padding: 20px 0 10px;
+    margin: 0px 0px 20px;
+    border-radius: 5px;
+    box-shadow:  0 0 10px #9AABD8;
+
+}
+
+
+.button{
+    width:30px;
+    background-color: #1B244A;
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    padding: 5px 0;
+    font-family: cursed;
+}
+
+#footer{
+    background-color: #1B244A;
+    padding-bottom: 20px;
+    border-radius: 0 0 5px 5px;
+}
+
+
+
+#reset-button{
+    width:60px;
+    background-color: #1B244A;
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    padding: 5px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
